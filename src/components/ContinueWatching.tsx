@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Play, Info } from 'lucide-react';
 
 interface MemoryCard {

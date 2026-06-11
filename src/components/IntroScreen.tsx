@@ -1,7 +1,7 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { soundEngine } from '../utils/audioSynth';
-import { Film, Volume2, Play } from 'lucide-react';
+import { Film, Play } from 'lucide-react';
 
 interface IntroScreenProps {
   onComplete: () => void;

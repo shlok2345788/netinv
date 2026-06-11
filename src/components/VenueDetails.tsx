@@ -1,5 +1,4 @@
-import React from 'react';
-import { MapPin, Compass, Navigation, Calendar, CheckSquare } from 'lucide-react';
+import { MapPin, Compass, Navigation, Calendar } from 'lucide-react';
 
 export default function VenueDetails() {
   const handleAddToCalendar = () => {

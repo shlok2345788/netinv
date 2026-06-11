@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { User, Plus, Check, Ticket, ArrowLeft, Users, Mail, Clipboard, Sparkles } from 'lucide-react';
 
 export default function RSVPPremier() {
   const [stage, setStage] = useState<'profiles' | 'form' | 'ticket'>('profiles'); // profiles, form, ticket
-  const [selectedProfile, setSelectedProfile] = useState<string | null>(null);
   
   // Form State
   const [formData, setFormData] = useState({

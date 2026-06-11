@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import IntroScreen from './components/IntroScreen';
 import HeroBanner from './components/HeroBanner';
 import TrailerModal from './components/TrailerModal';
@@ -7,7 +7,7 @@ import ContinueWatching from './components/ContinueWatching';
 import VenueDetails from './components/VenueDetails';
 import RSVPPremier from './components/RSVPPremier';
 import { soundEngine } from './utils/audioSynth';
-import { Volume2, VolumeX, Menu, X, Play, Film } from 'lucide-react';
+import { Volume2, VolumeX, Menu, X, Film } from 'lucide-react';
 
 export default function App() {
   const [showIntro, setShowIntro] = useState(true);

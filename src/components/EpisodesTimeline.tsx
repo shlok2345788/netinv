@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Calendar, Clock, MapPin, Shirt, Play } from 'lucide-react';
 
 interface Episode {

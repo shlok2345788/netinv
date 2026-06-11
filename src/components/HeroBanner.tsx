@@ -1,6 +1,5 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { Play, Calendar, MapPin, Award } from 'lucide-react';
-import { soundEngine } from '../utils/audioSynth';
 
 interface HeroBannerProps {
   onWatchTrailer: () => void;
