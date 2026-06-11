@@ -18,7 +18,6 @@ export default function RSVPPremier() {
   const [messageAlert, setMessageAlert] = useState<string | null>(null);
 
   const handleProfileClick = (profile: string) => {
-    setSelectedProfile(profile);
     if (profile === 'guest') {
       setStage('form');
     } else if (profile === 'groom') {
